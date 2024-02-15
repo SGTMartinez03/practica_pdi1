@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Honk&display=swap');
+*{
+    margin: auto;
+}
+body{
+    font-family: 'Honk', system-ui;
+    background-image: url(",,/image/fondo.jpg");
+    background-position: center;
+    background-size: cover;
+
+}
+header{
+
+    background-color: blue;
+    width: 80%;
+    height: 200px;
+    text-align: center;
+    color: white;
+    margin-top:20px ;  /* Margen superior*/
+    margin-bottom: 30px; /* Margen inferior*/
+    margin: 10px 5px 15px 5px;/* Top right bottomo left */
+}
+
+nav{
+    background-color: green;
+    width: 80%;
+    height: 50px;
+
+}
+
+a{
+    color:white;
+
+}
+/* cambiar color mouse*/
+a:hover{
+    color: yellow;
+}
+
+section{
+    background-color: orange;
+    width: 80%;
+    height: 200px;
+    /* Tipo de borde, Tamno y Color*/
+    border: solid 2px red;
+   border-radius:10px ;
+
+}
+main{
+width: 80%;
+background-color: white;
+padding-top: 50px;
+padding-bottom: 50px;
+display: flex;
+
+}
+
+div{
+padding:50px
+
+}
+
+aside{
+    background-color: pink;
+}
+
+#Principal{
+    display: flex;
+}
+#Contenido{
+
+    background-color: blue;
+    width: 60%;
+}
+
+.Botton{
+    background-color: orange;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 25px;
+    border: solid orangered 2px;
+    border-radius: 10px;
+}
+
+.Botton:hover{
+
+    background-color: white;
+    color: orangered;
+}
+
+footer{
+width: 80%;
+background-color: black;
+color: white;
+
+}
